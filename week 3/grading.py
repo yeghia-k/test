@@ -1,15 +1,15 @@
 score = int(input("Enter your score (0-100): "))
 if score >= 90:
-grade = "A"
+    grade = "A"
 elif score >= 80:
-grade = "B"
+    grade = "B"
 elif score >= 70:
-grade = "C"
+    grade = "C"
 elif score >= 60:
-grade = "D"
+    grade = "D"
 else:
-grade = "F"
+    grade = "F"
 print(f"Your grade is: {grade}")
 # Bonus: print encouragement for top grades
 if grade == "A":
-print("Excellent work!")
+    print("Excellent work!")
