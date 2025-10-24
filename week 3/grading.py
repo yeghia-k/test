@@ -9,7 +9,7 @@ elif score >= 60:
     grade = "D"
 else:
     grade = "F"
-print(f"Your grade is: {grade}")
+print("Your grade is:" , grade)
 # Bonus: print encouragement for top grades
 if grade == "A":
     print("Excellent work!")
